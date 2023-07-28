@@ -1,0 +1,376 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+.hero-div{
+    background-image: url("../img/Marvel/earth.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 80vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-content{
+    color: aliceblue;
+    text-align: center;
+    position: absolute;
+    z-index: 2;
+}
+
+.hero-content h1{
+    font-size: 113px;
+    margin-bottom: 10%;
+}
+
+.hero-image img{
+    display: flex;
+    position: absolute;
+    animation: ironman 2s linear 0s infinite;
+}
+
+.play-button{
+    width:40%;
+}
+
+#ironman{
+    width: 30%;
+    bottom:0%;
+    left: 3%;
+    z-index: 3;
+
+}
+
+#superman{
+    width: 30%;
+    right: 3%;
+    z-index: 1;
+    bottom:0%;
+}
+
+.section-1{
+    margin: 5% 0%;
+    text-align: center;
+    color: aliceblue;
+}
+
+.main-section1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 3% auto;
+}
+
+.section1-content{
+    text-align: left;
+    padding: 2% 5%;
+}
+
+.section1-image{
+    width: 60%;
+    
+}
+
+.section1-image img{
+    width: 100%;
+    border-radius: 5%;
+    box-shadow: 0 8px 8px 0 rgba(68, 255, 0, 0.2), 0 8px 20px 0 rgba(68, 255, 0, 0.2);
+}
+
+@keyframes ironman{
+    0%{
+        bottom:1%;
+    }
+    50%{
+        bottom: 2%;
+    }
+    100%{
+        bottom:1%;
+    }
+}
+
+.section-2{
+    text-align: center;
+    color: aliceblue;
+}
+
+.team-choice{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.team-1{
+    width: 500px;
+    height: 600px;
+    padding: 1%;
+    background-image: url(../img/DC/strange1.png);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.team-1:hover{
+    width: 500px;
+    height: 600px;
+    padding: 1%;
+    background-image: url(../img/DC/strange2.png);
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+    
+}
+
+.team-2{
+    width: 500px;
+    height: 600px;
+    padding: 1%;
+    background-image: url(../img/Marvel/fate1.png);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.team-2:hover{
+    width: 500px;
+    height: 600px;
+    padding: 1%;
+    background-image: url(../img/Marvel/fate2.png);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#marvel-side{
+    width: 500px;
+    height: 600px;
+}
+
+#dc-side{
+    width: 500px;
+    height: 600px;
+}
+
+.section-3{
+    background-image: url("../img/Marvel/watercolor-galaxy.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 25vh;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-4{
+ text-align: center;   
+ color: aliceblue;
+ padding:2% 4%;
+}
+
+.explore{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.explore-game{
+    width:30vw;
+    height: 40vh;
+    padding: 1%;
+}
+
+.explore-game img{
+    width: 100%;
+    height: 100%;
+    margin: 3% auto;
+    box-shadow: 0 8px 8px 0 rgba(68, 255, 0, 0.2), 0 8px 20px 0 rgba(68, 255, 0, 0.2);
+}
+
+.footer-section{
+    text-align: center;
+    padding: 3%;
+    color: aliceblue;
+}
+
+.social-icons a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.social-icons a:hover{
+    color: skyblue;
+}
+
+
+@media screen and (max-width: 900px)  {
+
+    .hero-content h1{
+        font-size: 50px;
+        margin-bottom: 10%;
+    }
+
+    .section1-image{
+        width: 100%; 
+        text-align: center;  
+    }
+
+    .hero-image img{
+        animation: superman 2s linear 0s infinite;
+        animation: ironman 2s linear 0s infinite;
+    }
+
+    #ironman{
+        width: 63%;
+        bottom:0%;
+        left: 18%;
+        z-index: 3;
+    
+    }
+    
+    #superman{
+        width: 55%;
+        right: 18%;
+        z-index: 1;
+        top:1%;
+    }
+
+    @keyframes superman{
+        0%{
+            top:1%;
+        }
+        50%{
+            top: 2%;
+        }
+        100%{
+            top:1%;
+        }
+    }
+
+    @keyframes ironman{
+        0%{
+            bottom:0%;
+        }
+        50%{
+            bottom: 1%;
+        }
+        100%{
+            bottom:0%;
+        }
+    }
+
+    .main-section1{
+        display: flex;
+        flex-direction:column-reverse;
+        align-items:center;
+        justify-content: space-between;
+        margin: 10% auto;
+    }
+
+    .section1-image img{
+        margin: 5% auto;
+    }
+
+    .section1-content{
+        text-align: center;
+        padding: 2% 5%;
+    }
+
+
+    .team-choice{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .team-1{
+        width: 300px;
+        height: 600px;
+        
+    }
+    
+    .team-1:hover{
+        width: 300px;
+        height: 600px;
+        
+    }
+    
+    .team-2{
+        width: 300px;
+        height: 600px;
+        
+    }
+    
+    
+    .team-2:hover{
+        width: 300px;
+        height: 600px;
+    }
+    
+
+    .section-3{
+        text-align: center;
+    }
+
+    .section-4{
+        text-align: center;   
+        color: aliceblue;
+        padding:4% 0%;
+       }
+
+    .explore{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    
+    .explore-game{
+        width:80vw;
+        height: 30vh;
+        padding: 1%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .explore-game img{
+        z-index: 0;
+        margin: 10% auto;
+    }
+
+    .explore-game a{
+        margin: 2% auto;
+    }
+    
+    .footer-section{
+        margin-top: 10%;
+    }
+
+
+
+
+}
