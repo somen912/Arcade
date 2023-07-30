@@ -56,9 +56,10 @@
 }
 
 .section-1{
-    margin: 5% 0%;
+    padding:2% 10%;
     text-align: center;
     color: aliceblue;
+    background-color: #212A3E;
 }
 
 .main-section1{
@@ -97,6 +98,7 @@
 }
 
 .section-2{
+    padding-top: 2%;
     text-align: center;
     color: aliceblue;
 }
@@ -213,6 +215,8 @@
     text-align: center;
     padding: 3%;
     color: aliceblue;
+    margin-top: 5%;
+    background-color: #212A3E;
 }
 
 .social-icons a{
@@ -244,7 +248,7 @@
     }
 
     #ironman{
-        width: 55%;
+        width: 50%;
         bottom:0%;
         left: 18%;
         z-index: 3;
@@ -252,7 +256,7 @@
     }
     
     #superman{
-        width: 55%;
+        width: 58%;
         right: 18%;
         z-index: 1;
         top:1%;
